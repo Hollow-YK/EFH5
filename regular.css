@@ -1,0 +1,176 @@
+/* Basic Styles */
+/* color */
+:root{
+	--bgcolor:#E6E6FA;
+	--section-bgcolor:#F0F8FF;
+}
+/* main parts */
+body{transition: 1s all;
+	min-width: 650px;
+	color: var(--text-color);
+	font-family: "PingFang SC",miui,system-ui,-apple-system,"lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei",BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+	background-color: var(--bgcolor);
+	margin: 0;
+	display: flex;
+	flex-direction: column;}
+section{transition: 1s all;
+	background-color: var(--section-bgcolor);
+	margin-left: 3%;
+	margin-right: 3%;}
+article{
+	font-weight: 500;
+	text-indent: 2em;
+	margin-left: 5%;
+	margin-right: 5%;}
+.main-flex{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;}
+.main-box{display: block;}
+.main-sidebox{
+	min-width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	margin: 20px 0;}
+@media (orientation: landscape) {
+	section{
+		border-radius: 10px;
+		margin-top: 20px;
+		padding: 5px;}
+	.main-flex{flex-wrap: nowrap;}
+	.main-box{
+		min-width: 600px;
+		width:1200px;
+		max-width:90%;
+	}
+	.main-sidebox{
+		width: 600px;
+		max-width:23%;
+		border-left: 1px solid rgb(221, 221, 221);
+		padding: 10px 1% 0px 1%;
+		margin-left: -1%;
+	}
+}
+@media (orientation: portrait) {
+	section{
+		border-radius: 20px;
+		margin-top: 45px;
+		padding: 10px;}
+	.main-flex{flex-wrap: wrap;justify-content: center;}
+	.main-box{
+		width:100%;
+	}
+	.main-sidebox{
+		width: 1000px;
+		max-width:100%;
+		border: none;
+		padding: 10px 3pc;
+	}
+}
+/* other parts */
+/* main styles */
+h1{
+	font-family: "MiSans" !important;
+	font-weight: 900 !important;
+	color: #3264FF !important;
+	font-size: 48pt !important;
+	text-align: center !important;
+	text-indent: 0;}
+h1 a{
+	color: #3264FF !important;}
+h2{
+	font-family: "MiSans" !important;
+	font-weight: 800 !important;
+	color: #A0F !important;
+	font-size: 32pt !important;
+	text-align: center !important;
+	text-indent: 0;}
+h2 a{
+	color: #A0F !important;}
+h3{
+	font-family: "MiSans" !important;
+	font-weight: 700 !important;
+	font-size: 2em !important;
+	text-indent: 0;}
+h4{
+	font-family: "MiSans" !important;
+	font-weight: 600 !important;
+	font-size: 1.5em !important;
+	text-indent: 0;}
+a{
+	color: #0C0;
+	text-decoration: none;
+	background: linear-gradient(90deg, #ff3c41, #fc0, #0ebeff);
+	background-size: 0 3px;
+	background-repeat: no-repeat;
+	background-position: 0 100%;
+	transition: 1s all;}
+a:hover,a:focus-visible{
+	color: #0CC;
+	font-weight: bold;
+	text-shadow: 0 0 20px #FFFFFF;
+	background-size: 100% 3px;
+	transition: 1s all;}
+/* others */
+.hide{
+	visibility: hidden;content-visibility: hidden;}
+.noselect,header,nav,footer,.setting-box,#section0 {
+	/*noselect:on;*/
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Chrome/Safari/Opera */
+	-khtml-user-select: none; /* Konqueror */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currentlyno t supported by any browser */}
+@media (orientation: landscape) {
+	.mobile-only{
+		visibility: hidden;
+		content-visibility: hidden;}}
+@media (orientation: portrait) {
+	.desktop-only{
+		visibility: hidden;
+		content-visibility: hidden;}}
+table{
+	border-collapse: collapse;
+	border: 1px solid rgb(162, 169, 177);
+	margin: 3%;
+}
+section table>tbody>:nth-child(2n){
+	background-color: var(--table-bgcolor1);}
+section table>tbody>:nth-child(2n+1){
+	background-color: var(--table-bgcolor2);}
+td,tr,th{
+	border: 1px solid rgb(162, 169, 177);}
+th{
+	background-color: rgba(14,81,126,0.9) !important;
+	color: rgba(255, 255, 255, 0.9);}
+/* Fonts */
+/*MiSans*/
+@font-face {font-family: "MiSans";font-weight: 100;
+	src: url(fonts/MiSans-Thin.ttf);}
+@font-face {font-family: "MiSans";font-weight: 200;
+	src: url(fonts/MiSans-ExtraLight.ttf);}
+@font-face {font-family: "MiSans";font-weight: 300;
+	src: url(fonts/MiSans-Light.ttf);}
+@font-face {font-family: "MiSans";font-weight: 400;
+	src: url(fonts/MiSans-Normal.ttf);}
+@font-face {font-family: "MiSans";font-weight: 500;
+	src: url(fonts/MiSans-Regular.ttf);}
+@font-face {font-family: "MiSans";font-weight: 600;
+	src: url(fonts/MiSans-DemiBlod.ttf);}
+@font-face {font-family: "MiSans";font-weight: 700;
+	src: url(fonts/MiSans-SemiBlod.ttf);}
+@font-face {font-family: "MiSans";font-weight: 800;
+	src: url(fonts/MiSans-Bold.ttf);}
+@font-face {font-family: "MiSans";font-weight: 900;
+	src: url(fonts/MiSans-Heavy.ttf);}
+/*others*/
+@font-face {font-family: "Dosis";font-weight: 900;
+	src: url(fonts/Dosis-ExtraBold.ttf);}
+@font-face {font-family: "Potra";font-weight: 300;
+	src: url(fonts/Potra.otf);}
+@font-face {font-family: "58hf";
+	src: url(fonts/58pic_handwrite_font.ttf);}
