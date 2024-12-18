@@ -1,0 +1,42 @@
+.normal-header{
+	top: 0;
+	background-color: var(--normal-header-bgcolor);
+	min-width: 650px;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	box-shadow: rgb(0 0 0 / 10%) 0px 1px 4px 0px}
+.normal-header-icon {
+	height: 150px;
+	width: 150px;
+	left: 0;}
+.normal-header-main{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;}
+.normal-header-left{
+	display: flex;
+	flex-direction: column;}
+.normal-header-left-t1{
+	font-family: "MiSans";
+	font-weight: 700;
+	color: #3264FF;
+	font-size: 64px;
+	margin: 0px 10px;}
+.normal-header-left-t2{
+	font-family: "Dosis";
+	font-weight: 600;
+	color: #64FF32;
+	font-size: 32px;
+	margin: 0px 10px;}
+.normal-header-right{
+	color: #6432FF;
+	right: 0px;
+	width: 30%;
+	text-align: right;
+	font-family: "Potra";
+	font-size: 72px;}

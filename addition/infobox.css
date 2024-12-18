@@ -1,0 +1,101 @@
+ .ib{
+	display: flex;
+	margin-left: 3%;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	clear: both;
+	text-indent: 0;}
+.ib-fi{box-sizing:border-box;}
+.ib-la{display:block;box-sizing:border-box;color: #000;}
+@media (orientation: landscape) {
+	.ib{
+		margin-top: 12px;
+		margin-bottom: 12px;
+		width:825px;
+		max-width:90%;
+		flex-direction: row;
+		flex-wrap: nowrap;
+	}
+	.ib-fi{
+		display:flex;
+		padding:10px 10px 10px 10px;
+		width:40px;
+		min-width:40px;
+		max-width:40px;
+		justify-content: center;
+		font-size: 24px;}
+	.ib-la{
+		padding:12px 12px 12px 12px;
+		flex-grow:1;-webkit-box-flex:1;
+	}
+}
+@media (orientation: portrait) {
+	.ib{
+		margin-bottom:0.5rem;
+		margin-top:0.5rem;
+		width: 1024px;
+		max-width: 94%;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.ib-fi{
+		display:block;
+		padding:0.5rem 1rem 0.5rem 1rem;
+		font-size:1em;}
+	.ib-la{
+		padding:0.5rem 1rem 0.5rem 1rem;
+		flex-grow:1;
+		-webkit-box-flex:1;
+		-webkit-box-pack:center;
+		justify-content:center;
+	}
+}
+/*red*/
+.ib-red-h{
+	background-color: #F4C89C;
+	color: #E7815C;}
+.ib-red{
+	background-color: #FFF7ED;}
+/*orange*/
+/*blue*/
+.ib-blue-h{
+	background-color:#85C1F7;
+	color:#4487DF;}
+.ib-blue{
+	background: #EBF7FE;}
+/*blue gray*/
+.ib-blue-gray-h{
+	background-color: #aec5d7;
+	color: #373737;}
+.ib-blue-gray{
+	background-color: #536d7e;
+	color: #FFF}
+/*green*/
+.ib-green-h{
+	background-color:#B9E66B;
+	color:#84B63C;}
+.ib-green{
+	background: #F9FFEA;}
+/*yellow*/
+.ib-yellow-h{
+	background-color: #F9E179;
+	color: #F1BD4C;}
+.ib-yellow{
+	background-color: #FEF9DE;}
+/*brown*/
+.ib-brown-h{
+	background-color: #5d4237;
+	color: #f9fff4;}
+.ib-brown-d{
+	background-color: #fcac56;}
+/*purple*/
+.ib-purple-h,.ib-purple-d-h,.ib-purple-hl-h{
+	background-color:#7051DB;
+	color:#FFF;}
+.ib-purple-d{
+	background: #54409A;
+	color: #b5e7ff;}
+.ib-purple-d>.ib-la{color: #b5e7ff;}
+.ib-purple-d-hl{
+	color: #FFF;}
+.ib-purple-hl{
+	background: linear-gradient(90deg,#defcff,#e2dbff);}
