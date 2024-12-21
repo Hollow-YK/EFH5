@@ -1,0 +1,27 @@
+.main-sidebox-section{
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	box-shadow: 1px 1px 2px #FFFFFF,1px 1px 5px #FFFFFF;
+	margin: 0 0 36px 0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;}
+.main-sidebox-section-h{
+	font-size: 33px;
+	color: #00008B;
+	font-family: "MiSans";font-weight: 700;
+	width: 95%;
+	padding: 10px 0;
+	border-bottom: 1px solid rgb(221, 221, 221);}
+.main-sidebox-section-text{
+	color: var(--main-sidebox-section-text-color);
+	margin: 20px 0;
+	width: 90%;}
+.main-sidebox-section-text>a{
+	color: var(--main-sidebox-section-text-a-color);}
+.main-sidebox-siteicon-pic{
+	height: 100px;
+	width: 300px;
+	margin: 5px;
+	background-image: url(media/icon_100_300.png);}

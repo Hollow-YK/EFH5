@@ -1,0 +1,23 @@
+.page-button-box{
+	display: flex;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: space-evenly;
+	margin: 2% 5%;
+	padding: 2% 5%;
+	background-color: var(--section-bgcolor);
+	border-radius: 10px;
+}
+.page-button{
+	display: block;
+	background-color: var(--bgcolor);
+	color: #3264FF;
+	height: 100px;
+	width: 30%;
+	font-size: 30px;
+	font-weight: 900;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
