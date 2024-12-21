@@ -1,0 +1,14 @@
+/* Basic Styles */
+/* color */
+:root{
+	--bgcolor:#E6E6FA;
+	--section-bgcolor:#F0F8FF;
+	--normal-header-bgcolor:#F0FFFF;
+	--flex-header-bgcolor:#E2FFDE;
+	--flex-header-shadow-color:#0003;
+	--main-sidebox-section-text-color:#9932CC;;
+	--main-sidebox-section-text-a-color:#28794C;;
+	--setting-box-bgcolor:#9DE;
+	--table-bgcolor1:rgba(0, 0, 0, 0.03);
+	--table-bgcolor2:rgba(255, 255, 255, 0.3);
+}
