@@ -1,0 +1,14 @@
+table{
+	border-collapse: collapse;
+	border: 1px solid rgb(162, 169, 177);
+	margin: 3%;
+}
+section table>tbody>:nth-child(2n){
+	background-color: var(--table-bgcolor1);}
+section table>tbody>:nth-child(2n+1){
+	background-color: var(--table-bgcolor2);}
+td,tr,th{
+	border: 1px solid rgb(162, 169, 177);}
+th{
+	background-color: rgba(14,81,126,0.9) !important;
+	color: rgba(255, 255, 255, 0.9);}

@@ -1,0 +1,38 @@
+/* Animation */
+/* neon */
+@keyframes neon-blue {
+	0% {
+		color: #333;
+	}
+	5%, 15%, 25%, 30%, 100% {
+		color: #fff;
+		text-shadow: 
+			0 0 5px #0ebeff,
+			0 0 10px #0ebeff,
+			0 0 20px #0ebeff,
+			0 0 50px #0ebeff,
+			0 0 100px #0ebeff,
+			0 0 200px #0ebeff;
+	}
+	10%, 20% {
+		color: #333;
+		text-shadow: none;
+	}}
+@keyframes neon-green {
+	0% {
+		color: #666;
+	}
+	5%, 15%, 25%, 30%, 100% {
+		color: #fff;
+		text-shadow: 
+			0 0 5px #64FF32,
+			0 0 10px #64FF32,
+			0 0 20px #64FF32,
+			0 0 50px #64FF32,
+			0 0 100px #64FF32,
+			0 0 200px #64FF32;
+	}
+	10%, 20% {
+		color: #666;
+		text-shadow: none;
+	}}

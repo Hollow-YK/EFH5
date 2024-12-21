@@ -1,0 +1,19 @@
+pre,code{
+	font-family:Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+	font-size:small;
+	tab-size: 4;
+	border-radius:0.25rem;
+}
+pre{
+	background-color: #E6E6FA;
+	margin: 2rem 0;
+	padding: 1rem 2.5rem 1rem 1rem;
+	overflow-x: scroll;
+}
+code{
+	display: inline;
+	padding:.125rem .25rem;
+}
+p code{
+	background: #E6E6FA;
+}
