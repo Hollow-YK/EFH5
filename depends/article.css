@@ -1,0 +1,90 @@
+/*article*/
+article{font-family: miui,"Microsoft YaHei", "WenQuanYi Micro Hei", system-ui,-apple-system,"lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol, "MiSans";}
+article h1{
+	border-top: 1px solid #A0F;
+	border-bottom: 1px solid #A0F;
+	clear: both;}
+article h2,article h3,article h4{
+	border-top: 1px solid #3264FF;
+	border-bottom: 1px solid #3264FF;
+	clear: both;
+	text-align: center;}
+article h3{color: #3264FF;}
+article h3 a{color: #3264FF;}
+.content-box{
+	clear: both;
+}
+/*content in book*/
+.content1{
+	font-family: "MiSans";
+	font-weight: 900;
+	margin-left: 6%;}
+.content1-{
+	font-family: "MiSans";
+	font-weight: 900;
+	margin-left: 6%;
+	color: #AAA;}
+.content1-:hover{
+	font-family: "MiSans";
+	font-weight: 900;
+	margin-left: 6%;
+	color: #AAA;}
+.content2{
+	font-family: "MiSans";
+	font-weight: 700;
+	margin-left: 8%;}
+.content2-{
+	font-family: "MiSans";
+	font-weight: 700;
+	margin-left: 6%;
+	color: #AAA;}
+.content2-:hover{
+	font-family: "MiSans";
+	font-weight: 700;
+	margin-left: 6%;
+	color: #AAA;}
+.content3{
+	font-family: "MiSans";
+	font-weight: 500;
+	margin-left: 10%;}
+.content3-{
+	font-family: "MiSans";
+	font-weight: 500;
+	margin-left: 6%;
+	color: #AAA;}
+.content3-:hover{
+	font-family: "MiSans";
+	font-weight: 500;
+	margin-left: 6%;
+	color: #AAA;}
+/*picture*/
+.title-pic{
+	width: 100%;}
+.book-pic{
+	width: auto;
+	max-width: 100%;
+	max-height: calc(100vh - 100px);
+	clear: left;
+	box-shadow: 3px 3px 3px #c7c7c7;}
+/*bookinfo*/
+.bookinfo{
+	display: flex;flex-wrap: nowrap;
+}
+.bookinfo-box{
+	padding: 0 3%;
+}
+.cover{
+	margin: 0 5%;
+	border-style: solid solid solid solid;
+	border-width: 1px;
+	border-radius: 0.5em;
+	border: 1px solid #146eb4;
+	box-shadow: 5px 5px 5px #c7c7c7;}
+@media (orientation: portrait){
+	.bookinfo{flex-direction: row;}
+	.cover{max-width: 50%;height: fit-content;max-height: 50vh;}
+}
+@media (orientation: landscape){
+	.bookinfo{flex-direction: row;}
+	.cover{max-width: 23%;height: fit-content;}
+}
